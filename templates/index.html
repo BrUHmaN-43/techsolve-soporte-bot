@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soporte Técnico — TechSolve S.A.</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+
+  <div class="chat-wrapper">
+
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="header-logo">TS</div>
+      <div class="header-info">
+        <span class="header-title">Soporte Técnico</span>
+        <span class="header-sub">TechSolve S.A. — Nivel 1</span>
+      </div>
+      <div class="header-status">
+        <span class="status-dot"></span>
+        <span id="status-text">En línea</span>
+      </div>
+    </div>
+
+    <!-- Mensajes -->
+    <div class="chat-messages" id="chat-messages"></div>
+
+    <!-- Input -->
+    <div class="chat-input-area">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Escribí tu mensaje..."
+        autocomplete="off"
+        maxlength="300"
+      />
+      <button id="send-btn" onclick="enviarMensaje()">Enviar</button>
+    </div>
+
+    <!-- Comandos rápidos -->
+    <div class="quick-commands">
+      <button class="cmd-btn" onclick="enviarComando('/reiniciar')">/reiniciar</button>
+      <button class="cmd-btn" onclick="enviarComando('/cancelar')">/cancelar</button>
+      <button class="cmd-btn" onclick="enviarComando('/estado')">/estado</button>
+    </div>
+
+  </div>
+
+  <script src="/static/js/chat.js"></script>
+</body>
+</html>
