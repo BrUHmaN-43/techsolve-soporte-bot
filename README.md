@@ -64,7 +64,7 @@ techsolve-soporte-bot/
 **1. Clonar el repositorio**
 ```bash
 git clone https://github.com/TU_USUARIO/techsolve-soporte-bot.git
-cd techsolve-soporte-bot
+cd techsolve-soporte--bot
 ```
 
 **2. Crear y activar entorno virtual**
