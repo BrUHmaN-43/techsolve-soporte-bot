@@ -61,10 +61,9 @@ techsolve-soporte-bot/
 
 ### Pasos
 
-**1. Clonar el repositorio**
+**1. Copiar dirección de ruta y pegarlo en el CMD**
 ```bash
-git clone https://github.com/TU_USUARIO/techsolve-soporte-bot.git
-cd techsolve-soporte-bot
+cd C:\Users\PC\Downloads\techsolve-soporte-bot-main\techsolve-soporte-bot-main
 ```
 
 **2. Crear y activar entorno virtual**
