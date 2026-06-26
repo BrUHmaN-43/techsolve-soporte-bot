@@ -61,7 +61,7 @@ techsolve-soporte-bot/
 
 ### Pasos
 
-**1. Copiar dirección de ruta y pegarlo en el CMD**
+**1. Copiar la dirección de ruta y pegarlo en el CMD**
 ```bash
 cd C:\Users\PC\Downloads\techsolve-soporte-bot-main\techsolve-soporte-bot-main
 ```
