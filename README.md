@@ -58,7 +58,7 @@ techsolve-soporte-bot/
 ### Requisitos previos
 - Python 3.10 o superior
 - pip
-
+- Utilizar el CMD
 ### Pasos
 
 **1. Copiar la dirección de ruta y pegarlo en el CMD**
